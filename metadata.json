@@ -1,0 +1,6 @@
+{
+  "name": "SecureStegVault",
+  "description": "AES-256-GCM image steganography tool using CNN feature cost mapping, EMD, and OPAP with pixel-level inspection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

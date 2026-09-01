@@ -1,0 +1,2579 @@
+
+pytorch2.11.0+cu128:��
+�
+cover_patchval_0node_Shape_0"Shape*
+
+end�*
+start�J�
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_66: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']J�
+pkg.torch.onnx.fx_nodeq%sym_size_int_66 : [num_users=4] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 2), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_66']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+�
+val_0sym_size_int_66node_sym_size_int_66"SqueezeJ�
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_66: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']J�
+pkg.torch.onnx.fx_nodeq%sym_size_int_66 : [num_users=4] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 2), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_66']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+�
+cover_patchval_1node_Shape_1"Shape*
+
+end�*
+start�J�
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_67: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']J�
+pkg.torch.onnx.fx_nodeq%sym_size_int_67 : [num_users=4] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 3), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_67']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+�
+val_1sym_size_int_67node_sym_size_int_67"SqueezeJ�
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_67: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']J�
+pkg.torch.onnx.fx_nodeq%sym_size_int_67 : [num_users=4] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 3), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_67']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+�
+val_144
+sym_size_int_66add_528node_add_528"AddJQ
+	namespaceD: __main__.LFRINN_CostMap_Inference/add_528: <built-in function add>Jb
+pkg.torch.onnx.class_hierarchy@['__main__.LFRINN_CostMap_Inference', '<built-in function add>']J�
+pkg.torch.onnx.fx_nodeh%add_528 : [num_users=1] = call_function[target=operator.add](args = (1, %sym_size_int_66), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'add_528']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+add_528
+val_3
+floordiv_4node_floordiv_4"DivJY
+	namespaceL: __main__.LFRINN_CostMap_Inference/floordiv_4: <built-in function floordiv>Jg
+pkg.torch.onnx.class_hierarchyE['__main__.LFRINN_CostMap_Inference', '<built-in function floordiv>']J�
+pkg.torch.onnx.fx_nodei%floordiv_4 : [num_users=21] = call_function[target=operator.floordiv](args = (%add_528, 2), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'floordiv_4']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+val_144
+sym_size_int_67add_529node_add_529"AddJQ
+	namespaceD: __main__.LFRINN_CostMap_Inference/add_529: <built-in function add>Jb
+pkg.torch.onnx.class_hierarchy@['__main__.LFRINN_CostMap_Inference', '<built-in function add>']J�
+pkg.torch.onnx.fx_nodeh%add_529 : [num_users=1] = call_function[target=operator.add](args = (1, %sym_size_int_67), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'add_529']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+add_529
+val_3
+floordiv_6node_floordiv_6"DivJY
+	namespaceL: __main__.LFRINN_CostMap_Inference/floordiv_6: <built-in function floordiv>Jg
+pkg.torch.onnx.class_hierarchyE['__main__.LFRINN_CostMap_Inference', '<built-in function floordiv>']J�
+pkg.torch.onnx.fx_nodei%floordiv_6 : [num_users=23] = call_function[target=operator.floordiv](args = (%add_529, 2), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'floordiv_6']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+cover_patch
+val_9
+val_13
+val_16
+val_16slice_1node_slice_1"SliceJK
+	namespace>: __main__.LFRINN_CostMap_Inference/slice_1: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_1 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%x, 2, 0, 9223372036854775807, 2), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'slice_1']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+cover_patch
+val_33
+val_13
+val_16
+val_16slice_3node_slice_3"SliceJK
+	namespace>: __main__.LFRINN_CostMap_Inference/slice_3: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_3 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%x, 2, 1, 9223372036854775807, 2), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'slice_3']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+slice_1
+val_9
+val_13
+val_71
+val_16slice_6node_slice_6"SliceJK
+	namespace>: __main__.LFRINN_CostMap_Inference/slice_6: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_6 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%slice_5, 3, 0, 9223372036854775807, 2), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'slice_6']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+slice_3
+val_9
+val_13
+val_71
+val_16slice_8node_slice_8"SliceJK
+	namespace>: __main__.LFRINN_CostMap_Inference/slice_8: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_8 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%slice_7, 3, 0, 9223372036854775807, 2), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'slice_8']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+slice_1
+val_33
+val_13
+val_71
+val_16slice_10node_slice_10"SliceJL
+	namespace?: __main__.LFRINN_CostMap_Inference/slice_10: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_10 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%slice_9, 3, 1, 9223372036854775807, 2), kwargs = {})J.
+pkg.torch.onnx.name_scopes['', 'slice_10']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+slice_3
+val_33
+val_13
+val_71
+val_16slice_12node_slice_12"SliceJL
+	namespace?: __main__.LFRINN_CostMap_Inference/slice_12: aten.slice.TensorJ\
+pkg.torch.onnx.class_hierarchy:['__main__.LFRINN_CostMap_Inference', 'aten.slice.Tensor']J�
+pkg.torch.onnx.fx_node�%slice_12 : [num_users=1] = call_function[target=torch.ops.aten.slice.Tensor](args = (%slice_11, 3, 1, 9223372036854775807, 2), kwargs = {})J.
+pkg.torch.onnx.name_scopes['', 'slice_12']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+slice_6
+slice_8add_38node_add_38"AddJH
+	namespace;: __main__.LFRINN_CostMap_Inference/add_38: aten.add.TensorJZ
+pkg.torch.onnx.class_hierarchy8['__main__.LFRINN_CostMap_Inference', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodes%add_38 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%slice_6, %slice_8), kwargs = {})J,
+pkg.torch.onnx.name_scopes['', 'add_38']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+add_38
+slice_10add_42node_add_42"AddJH
+	namespace;: __main__.LFRINN_CostMap_Inference/add_42: aten.add.TensorJZ
+pkg.torch.onnx.class_hierarchy8['__main__.LFRINN_CostMap_Inference', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodes%add_42 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%add_38, %slice_10), kwargs = {})J,
+pkg.torch.onnx.name_scopes['', 'add_42']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+add_42
+slice_12add_46node_add_46"AddJH
+	namespace;: __main__.LFRINN_CostMap_Inference/add_46: aten.add.TensorJZ
+pkg.torch.onnx.class_hierarchy8['__main__.LFRINN_CostMap_Inference', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodes%add_46 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%add_42, %slice_12), kwargs = {})J,
+pkg.torch.onnx.name_scopes['', 'add_46']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+add_46
+scalar_tensor_defaultdivnode_div"DivJE
+	namespace8: __main__.LFRINN_CostMap_Inference/div: aten.div.TensorJZ
+pkg.torch.onnx.class_hierarchy8['__main__.LFRINN_CostMap_Inference', 'aten.div.Tensor']J�
+pkg.torch.onnx.fx_node}%div : [num_users=3] = call_function[target=torch.ops.aten.div.Tensor](args = (%add_46, %scalar_tensor_default), kwargs = {})J)
+pkg.torch.onnx.name_scopes['', 'div']J|
+pkg.torch.onnx.stack_trace^File "/tmp/ipykernel_3295/1941818138.py", line 35, in forward
+    LL, LH, HL, HH = haar_dwt(x)
+�
+val_142
+
+floordiv_4
+val_144arangenode_arange"RangeJf
+	namespaceY: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/arange: aten.arange.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.arange.default']J�
+pkg.torch.onnx.fx_node�%arange : [num_users=1] = call_function[target=torch.ops.aten.arange.default](args = (%floordiv_4,), kwargs = {device: cpu, pin_memory: False})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'arange']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+val_142
+
+floordiv_6
+val_144arange_1node_arange_1"RangeJh
+	namespace[: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/arange_1: aten.arange.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.arange.default']J�
+pkg.torch.onnx.fx_node�%arange_1 : [num_users=1] = call_function[target=torch.ops.aten.arange.default](args = (%floordiv_6,), kwargs = {device: cpu, pin_memory: False})J9
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'arange_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+arange
+val_150view	node_view"Reshape*
+	allowzero�Jb
+	namespaceU: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/view: aten.view.defaultJp
+pkg.torch.onnx.class_hierarchyN['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.view.default']J�
+pkg.torch.onnx.fx_nodeq%view : [num_users=1] = call_function[target=torch.ops.aten.view.default](args = (%arange, [-1, 1]), kwargs = {})J5
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'view']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+
+floordiv_4
+val_151val_152node_Reshape_152"Reshape*
+	allowzero �Jf
+	namespaceY: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/expand: aten.expand.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.expand.default']J�
+pkg.torch.onnx.fx_node�%expand : [num_users=1] = call_function[target=torch.ops.aten.expand.default](args = (%view, [%floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'expand']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+
+floordiv_6
+val_151val_153node_Reshape_153"Reshape*
+	allowzero �Jf
+	namespaceY: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/expand: aten.expand.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.expand.default']J�
+pkg.torch.onnx.fx_node�%expand : [num_users=1] = call_function[target=torch.ops.aten.expand.default](args = (%view, [%floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'expand']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+val_152
+val_153val_154node_Concat_154"Concat*
+axis �Jf
+	namespaceY: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/expand: aten.expand.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.expand.default']J�
+pkg.torch.onnx.fx_node�%expand : [num_users=1] = call_function[target=torch.ops.aten.expand.default](args = (%view, [%floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'expand']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+view
+val_154expandnode_expand"ExpandJf
+	namespaceY: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/expand: aten.expand.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.expand.default']J�
+pkg.torch.onnx.fx_node�%expand : [num_users=1] = call_function[target=torch.ops.aten.expand.default](args = (%view, [%floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'expand']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+arange_1
+val_158view_1node_view_1"Reshape*
+	allowzero�Jd
+	namespaceW: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/view_1: aten.view.defaultJp
+pkg.torch.onnx.class_hierarchyN['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.view.default']J�
+pkg.torch.onnx.fx_nodeu%view_1 : [num_users=1] = call_function[target=torch.ops.aten.view.default](args = (%arange_1, [1, -1]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'view_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+view_1
+val_154expand_1node_expand_1"ExpandJh
+	namespace[: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/expand_1: aten.expand.defaultJr
+pkg.torch.onnx.class_hierarchyP['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.expand.default']J�
+pkg.torch.onnx.fx_node�%expand_1 : [num_users=1] = call_function[target=torch.ops.aten.expand.default](args = (%view_1, [%floordiv_4, %floordiv_6]), kwargs = {})J9
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'expand_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+expand
+expand_1add_114node_add_114"AddJc
+	namespaceV: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/add_114: aten.add.TensorJn
+pkg.torch.onnx.class_hierarchyL['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_114 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%expand, %expand_1), kwargs = {})J8
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'add_114']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+add_114
+val_3	remaindernode_remainder"Mod*
+fmod �Jk
+	namespace^: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/remainder: aten.remainder.ScalarJt
+pkg.torch.onnx.class_hierarchyR['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.remainder.Scalar']J�
+pkg.torch.onnx.fx_nodeu%remainder : [num_users=1] = call_function[target=torch.ops.aten.remainder.Scalar](args = (%add_114, 2), kwargs = {})J:
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'remainder']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+	remainder_to_copynode__to_copy"Cast*	
+to�Jj
+	namespace]: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/_to_copy: aten._to_copy.defaultJt
+pkg.torch.onnx.class_hierarchyR['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten._to_copy.default']J�
+pkg.torch.onnx.fx_node�%_to_copy : [num_users=1] = call_function[target=torch.ops.aten._to_copy.default](args = (%remainder,), kwargs = {dtype: torch.float32})J9
+pkg.torch.onnx.name_scopes['', 'lf_rinn', '_to_copy']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+val_33
+val_33
+val_152
+val_153val_169node_Concat_169"Concat*
+axis �Jd
+	namespaceW: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/view_2: aten.view.defaultJp
+pkg.torch.onnx.class_hierarchyN['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.view.default']J�
+pkg.torch.onnx.fx_node�%view_2 : [num_users=4] = call_function[target=torch.ops.aten.view.default](args = (%_to_copy_1, [1, 1, %floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'view_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+_to_copy
+val_169view_2node_view_2"Reshape*
+	allowzero�Jd
+	namespaceW: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/view_2: aten.view.defaultJp
+pkg.torch.onnx.class_hierarchyN['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.view.default']J�
+pkg.torch.onnx.fx_node�%view_2 : [num_users=4] = call_function[target=torch.ops.aten.view.default](args = (%_to_copy_1, [1, 1, %floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'view_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+div
+view_2mul_148node_mul_148"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/mul_148: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodeo%mul_148 : [num_users=2] = call_function[target=torch.ops.aten.mul.Tensor](args = (%div, %view_2), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'mul_148']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 114, in forward
+    x_masked = x * mask
+�
+mul_148
+lf_rinn.blocks.0.net.0.weight
+lf_rinn.blocks.0.net.0.biasconv2dnode_conv2d"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/lf_rinn.blocks.0.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.0.net.0: torch.nn.modules.conv.Conv2d/conv2d: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%mul_148, %p_lf_rinn_blocks_0_net_0_weight, %p_lf_rinn_blocks_0_net_0_bias, [1, 1], [1, 1]), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.0', 'lf_rinn.blocks.0.net', 'lf_rinn.blocks.0.net.0', 'conv2d']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2drelu	node_relu"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/lf_rinn.blocks.0.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.0.net.1: torch.nn.modules.activation.ReLU/relu: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodei%relu : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d,), kwargs = {})J{
+pkg.torch.onnx.name_scopes]['', 'lf_rinn', 'lf_rinn.blocks.0', 'lf_rinn.blocks.0.net', 'lf_rinn.blocks.0.net.1', 'relu']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu
+lf_rinn.blocks.0.net.2.weight
+lf_rinn.blocks.0.net.2.biasconv2d_1node_conv2d_1"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/lf_rinn.blocks.0.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.0.net.2: torch.nn.modules.conv.Conv2d/conv2d_1: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_1 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu, %p_lf_rinn_blocks_0_net_2_weight, %p_lf_rinn_blocks_0_net_2_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.0', 'lf_rinn.blocks.0.net', 'lf_rinn.blocks.0.net.2', 'conv2d_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_1relu_1node_relu_1"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/lf_rinn.blocks.0.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.0.net.3: torch.nn.modules.activation.ReLU/relu_1: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_1 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_1,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.0', 'lf_rinn.blocks.0.net', 'lf_rinn.blocks.0.net.3', 'relu_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_1
+lf_rinn.blocks.0.net.4.weight
+lf_rinn.blocks.0.net.4.biasconv2d_2node_conv2d_2"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/lf_rinn.blocks.0.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.0.net.4: torch.nn.modules.conv.Conv2d/conv2d_2: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_2 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_1, %p_lf_rinn_blocks_0_net_4_weight, %p_lf_rinn_blocks_0_net_4_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.0', 'lf_rinn.blocks.0.net', 'lf_rinn.blocks.0.net.4', 'conv2d_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+`
+conv2d_2split_split_0split_split_1node_Split_306"Split*
+axis�*
+num_outputs�
+�
+split_split_0tanh	node_tanh"TanhJ�
+	namespace: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/tanh: aten.tanh.defaultJ�
+pkg.torch.onnx.class_hierarchyi['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.tanh.default']J�
+pkg.torch.onnx.fx_nodej%tanh : [num_users=1] = call_function[target=torch.ops.aten.tanh.default](args = (%getitem,), kwargs = {})JI
+pkg.torch.onnx.name_scopes+['', 'lf_rinn', 'lf_rinn.blocks.0', 'tanh']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+scalar_tensor_default_1
+view_2sub_100node_sub_100"SubJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/sub_100: aten.sub.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.sub.Tensor']J�
+pkg.torch.onnx.fx_node�%sub_100 : [num_users=1] = call_function[target=torch.ops.aten.sub.Tensor](args = (%scalar_tensor_default_1, %view_2), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'sub_100']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+tanh
+sub_100mul_188node_mul_188"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/mul_188: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodeq%mul_188 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%tanh, %sub_100), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'mul_188']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+split_split_1
+sub_100mul_197node_mul_197"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/mul_197: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodev%mul_197 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%getitem_1, %sub_105), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'mul_197']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 118, in forward
+    t = t * (1 - mask)
+�
+mul_188expnode_exp"ExpJ�
+	namespace}: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/exp: aten.exp.defaultJ�
+pkg.torch.onnx.class_hierarchyh['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.exp.default']J�
+pkg.torch.onnx.fx_nodeh%exp : [num_users=1] = call_function[target=torch.ops.aten.exp.default](args = (%mul_188,), kwargs = {})JH
+pkg.torch.onnx.name_scopes*['', 'lf_rinn', 'lf_rinn.blocks.0', 'exp']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+div
+expmul_210node_mul_210"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/mul_210: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodel%mul_210 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%div, %exp), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'mul_210']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_210
+mul_197add_183node_add_183"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/add_183: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_183 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_210, %mul_197), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'add_183']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+sub_100
+add_183mul_219node_mul_219"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/mul_219: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodet%mul_219 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%sub_110, %add_183), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'mul_219']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_148
+mul_219add_190node_add_190"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.0: __main__.AffineCoupling/add_190: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_190 : [num_users=2] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_148, %mul_219), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.0', 'add_190']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+scalar_tensor_default_1
+_to_copysub_139node_sub_139"SubJc
+	namespaceV: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/sub_139: aten.sub.TensorJn
+pkg.torch.onnx.class_hierarchyL['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.sub.Tensor']J�
+pkg.torch.onnx.fx_node�%sub_139 : [num_users=1] = call_function[target=torch.ops.aten.sub.Tensor](args = (%scalar_tensor_default_4, %_to_copy_3), kwargs = {})J8
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'sub_139']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+sub_139
+val_169view_5node_view_5"Reshape*
+	allowzero�Jd
+	namespaceW: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/view_5: aten.view.defaultJp
+pkg.torch.onnx.class_hierarchyN['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', 'aten.view.default']J�
+pkg.torch.onnx.fx_node�%view_5 : [num_users=4] = call_function[target=torch.ops.aten.view.default](args = (%sub_139, [1, 1, %floordiv_4, %floordiv_6]), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'lf_rinn', 'view_5']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 151, in forward
+    mask = self.checkerboard_mask(x.shape, x.device, flip=(i % 2 == 1))
+�
+add_190
+view_5mul_251node_mul_251"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/mul_251: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodes%mul_251 : [num_users=2] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_190, %view_5), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'mul_251']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 114, in forward
+    x_masked = x * mask
+�
+mul_251
+lf_rinn.blocks.1.net.0.weight
+lf_rinn.blocks.1.net.0.biasconv2d_3node_conv2d_3"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/lf_rinn.blocks.1.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.1.net.0: torch.nn.modules.conv.Conv2d/conv2d_3: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_3 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%mul_251, %p_lf_rinn_blocks_1_net_0_weight, %p_lf_rinn_blocks_1_net_0_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.1', 'lf_rinn.blocks.1.net', 'lf_rinn.blocks.1.net.0', 'conv2d_3']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_3relu_2node_relu_2"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/lf_rinn.blocks.1.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.1.net.1: torch.nn.modules.activation.ReLU/relu_2: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_2 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_3,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.1', 'lf_rinn.blocks.1.net', 'lf_rinn.blocks.1.net.1', 'relu_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_2
+lf_rinn.blocks.1.net.2.weight
+lf_rinn.blocks.1.net.2.biasconv2d_4node_conv2d_4"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/lf_rinn.blocks.1.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.1.net.2: torch.nn.modules.conv.Conv2d/conv2d_4: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_4 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_2, %p_lf_rinn_blocks_1_net_2_weight, %p_lf_rinn_blocks_1_net_2_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.1', 'lf_rinn.blocks.1.net', 'lf_rinn.blocks.1.net.2', 'conv2d_4']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_4relu_3node_relu_3"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/lf_rinn.blocks.1.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.1.net.3: torch.nn.modules.activation.ReLU/relu_3: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_3 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_4,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.1', 'lf_rinn.blocks.1.net', 'lf_rinn.blocks.1.net.3', 'relu_3']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_3
+lf_rinn.blocks.1.net.4.weight
+lf_rinn.blocks.1.net.4.biasconv2d_5node_conv2d_5"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/lf_rinn.blocks.1.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.1.net.4: torch.nn.modules.conv.Conv2d/conv2d_5: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_5 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_3, %p_lf_rinn_blocks_1_net_4_weight, %p_lf_rinn_blocks_1_net_4_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.1', 'lf_rinn.blocks.1.net', 'lf_rinn.blocks.1.net.4', 'conv2d_5']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+d
+conv2d_5split_1_split_0split_1_split_1node_Split_315"Split*
+axis�*
+num_outputs�
+�
+split_1_split_0tanh_1node_tanh_1"TanhJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/tanh_1: aten.tanh.defaultJ�
+pkg.torch.onnx.class_hierarchyi['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.tanh.default']J�
+pkg.torch.onnx.fx_noden%tanh_1 : [num_users=1] = call_function[target=torch.ops.aten.tanh.default](args = (%getitem_2,), kwargs = {})JK
+pkg.torch.onnx.name_scopes-['', 'lf_rinn', 'lf_rinn.blocks.1', 'tanh_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+scalar_tensor_default_1
+view_5sub_162node_sub_162"SubJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/sub_162: aten.sub.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.sub.Tensor']J�
+pkg.torch.onnx.fx_node�%sub_162 : [num_users=1] = call_function[target=torch.ops.aten.sub.Tensor](args = (%scalar_tensor_default_5, %view_5), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'sub_162']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+tanh_1
+sub_162mul_291node_mul_291"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/mul_291: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodes%mul_291 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%tanh_1, %sub_162), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'mul_291']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+split_1_split_1
+sub_162mul_300node_mul_300"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/mul_300: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodev%mul_300 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%getitem_3, %sub_167), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'mul_300']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 118, in forward
+    t = t * (1 - mask)
+�
+mul_291exp_1
+node_exp_1"ExpJ�
+	namespace: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/exp_1: aten.exp.defaultJ�
+pkg.torch.onnx.class_hierarchyh['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.exp.default']J�
+pkg.torch.onnx.fx_nodej%exp_1 : [num_users=1] = call_function[target=torch.ops.aten.exp.default](args = (%mul_291,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'lf_rinn', 'lf_rinn.blocks.1', 'exp_1']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_190
+exp_1mul_313node_mul_313"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/mul_313: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_noder%mul_313 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_190, %exp_1), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'mul_313']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_313
+mul_300add_280node_add_280"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/add_280: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_280 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_313, %mul_300), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'add_280']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+sub_162
+add_280mul_322node_mul_322"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/mul_322: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodet%mul_322 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%sub_172, %add_280), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'mul_322']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_251
+mul_322add_287node_add_287"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.1: __main__.AffineCoupling/add_287: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_287 : [num_users=2] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_251, %mul_322), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.1', 'add_287']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_287
+view_2mul_352node_mul_352"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/mul_352: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodes%mul_352 : [num_users=2] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_287, %view_8), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'mul_352']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 114, in forward
+    x_masked = x * mask
+�
+mul_352
+lf_rinn.blocks.2.net.0.weight
+lf_rinn.blocks.2.net.0.biasconv2d_6node_conv2d_6"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/lf_rinn.blocks.2.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.2.net.0: torch.nn.modules.conv.Conv2d/conv2d_6: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_6 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%mul_352, %p_lf_rinn_blocks_2_net_0_weight, %p_lf_rinn_blocks_2_net_0_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.2', 'lf_rinn.blocks.2.net', 'lf_rinn.blocks.2.net.0', 'conv2d_6']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_6relu_4node_relu_4"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/lf_rinn.blocks.2.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.2.net.1: torch.nn.modules.activation.ReLU/relu_4: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_4 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_6,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.2', 'lf_rinn.blocks.2.net', 'lf_rinn.blocks.2.net.1', 'relu_4']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_4
+lf_rinn.blocks.2.net.2.weight
+lf_rinn.blocks.2.net.2.biasconv2d_7node_conv2d_7"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/lf_rinn.blocks.2.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.2.net.2: torch.nn.modules.conv.Conv2d/conv2d_7: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_7 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_4, %p_lf_rinn_blocks_2_net_2_weight, %p_lf_rinn_blocks_2_net_2_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.2', 'lf_rinn.blocks.2.net', 'lf_rinn.blocks.2.net.2', 'conv2d_7']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_7relu_5node_relu_5"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/lf_rinn.blocks.2.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.2.net.3: torch.nn.modules.activation.ReLU/relu_5: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_5 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_7,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.2', 'lf_rinn.blocks.2.net', 'lf_rinn.blocks.2.net.3', 'relu_5']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_5
+lf_rinn.blocks.2.net.4.weight
+lf_rinn.blocks.2.net.4.biasconv2d_8node_conv2d_8"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/lf_rinn.blocks.2.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.2.net.4: torch.nn.modules.conv.Conv2d/conv2d_8: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_8 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_5, %p_lf_rinn_blocks_2_net_4_weight, %p_lf_rinn_blocks_2_net_4_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.2', 'lf_rinn.blocks.2.net', 'lf_rinn.blocks.2.net.4', 'conv2d_8']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+d
+conv2d_8split_2_split_0split_2_split_1node_Split_324"Split*
+axis�*
+num_outputs�
+�
+split_2_split_0tanh_2node_tanh_2"TanhJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/tanh_2: aten.tanh.defaultJ�
+pkg.torch.onnx.class_hierarchyi['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.tanh.default']J�
+pkg.torch.onnx.fx_noden%tanh_2 : [num_users=1] = call_function[target=torch.ops.aten.tanh.default](args = (%getitem_4,), kwargs = {})JK
+pkg.torch.onnx.name_scopes-['', 'lf_rinn', 'lf_rinn.blocks.2', 'tanh_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+tanh_2
+sub_100mul_392node_mul_392"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/mul_392: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodes%mul_392 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%tanh_2, %sub_221), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'mul_392']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+split_2_split_1
+sub_100mul_401node_mul_401"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/mul_401: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodev%mul_401 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%getitem_5, %sub_226), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'mul_401']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 118, in forward
+    t = t * (1 - mask)
+�
+mul_392exp_2
+node_exp_2"ExpJ�
+	namespace: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/exp_2: aten.exp.defaultJ�
+pkg.torch.onnx.class_hierarchyh['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.exp.default']J�
+pkg.torch.onnx.fx_nodej%exp_2 : [num_users=1] = call_function[target=torch.ops.aten.exp.default](args = (%mul_392,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'lf_rinn', 'lf_rinn.blocks.2', 'exp_2']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_287
+exp_2mul_414node_mul_414"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/mul_414: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_noder%mul_414 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_287, %exp_2), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'mul_414']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_414
+mul_401add_374node_add_374"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/add_374: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_374 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_414, %mul_401), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'add_374']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+sub_100
+add_374mul_423node_mul_423"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/mul_423: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodet%mul_423 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%sub_231, %add_374), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'mul_423']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_352
+mul_423add_381node_add_381"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.2: __main__.AffineCoupling/add_381: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_381 : [num_users=2] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_352, %mul_423), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.2', 'add_381']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_381
+view_5mul_455node_mul_455"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/mul_455: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodet%mul_455 : [num_users=2] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_381, %view_11), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'mul_455']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 114, in forward
+    x_masked = x * mask
+�
+mul_455
+lf_rinn.blocks.3.net.0.weight
+lf_rinn.blocks.3.net.0.biasconv2d_9node_conv2d_9"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/lf_rinn.blocks.3.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.3.net.0: torch.nn.modules.conv.Conv2d/conv2d_9: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_9 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%mul_455, %p_lf_rinn_blocks_3_net_0_weight, %p_lf_rinn_blocks_3_net_0_bias, [1, 1], [1, 1]), kwargs = {})J
+pkg.torch.onnx.name_scopesa['', 'lf_rinn', 'lf_rinn.blocks.3', 'lf_rinn.blocks.3.net', 'lf_rinn.blocks.3.net.0', 'conv2d_9']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+conv2d_9relu_6node_relu_6"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/lf_rinn.blocks.3.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.3.net.1: torch.nn.modules.activation.ReLU/relu_6: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodem%relu_6 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_9,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.3', 'lf_rinn.blocks.3.net', 'lf_rinn.blocks.3.net.1', 'relu_6']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_6
+lf_rinn.blocks.3.net.2.weight
+lf_rinn.blocks.3.net.2.bias	conv2d_10node_conv2d_10"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/lf_rinn.blocks.3.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.3.net.2: torch.nn.modules.conv.Conv2d/conv2d_10: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_10 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_6, %p_lf_rinn_blocks_3_net_2_weight, %p_lf_rinn_blocks_3_net_2_bias, [1, 1], [1, 1]), kwargs = {})J�
+pkg.torch.onnx.name_scopesb['', 'lf_rinn', 'lf_rinn.blocks.3', 'lf_rinn.blocks.3.net', 'lf_rinn.blocks.3.net.2', 'conv2d_10']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+
+	conv2d_10relu_7node_relu_7"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/lf_rinn.blocks.3.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.3.net.3: torch.nn.modules.activation.ReLU/relu_7: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_noden%relu_7 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_10,), kwargs = {})J}
+pkg.torch.onnx.name_scopes_['', 'lf_rinn', 'lf_rinn.blocks.3', 'lf_rinn.blocks.3.net', 'lf_rinn.blocks.3.net.3', 'relu_7']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_7
+lf_rinn.blocks.3.net.4.weight
+lf_rinn.blocks.3.net.4.bias	conv2d_11node_conv2d_11"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/lf_rinn.blocks.3.net: torch.nn.modules.container.Sequential/lf_rinn.blocks.3.net.4: torch.nn.modules.conv.Conv2d/conv2d_11: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_11 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_7, %p_lf_rinn_blocks_3_net_4_weight, %p_lf_rinn_blocks_3_net_4_bias, [1, 1], [1, 1]), kwargs = {})J�
+pkg.torch.onnx.name_scopesb['', 'lf_rinn', 'lf_rinn.blocks.3', 'lf_rinn.blocks.3.net', 'lf_rinn.blocks.3.net.4', 'conv2d_11']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 115, in forward
+    st = self.net(x_masked)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+e
+	conv2d_11split_3_split_0split_3_split_1node_Split_333"Split*
+axis�*
+num_outputs�
+�
+split_3_split_0tanh_3node_tanh_3"TanhJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/tanh_3: aten.tanh.defaultJ�
+pkg.torch.onnx.class_hierarchyi['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.tanh.default']J�
+pkg.torch.onnx.fx_noden%tanh_3 : [num_users=1] = call_function[target=torch.ops.aten.tanh.default](args = (%getitem_6,), kwargs = {})JK
+pkg.torch.onnx.name_scopes-['', 'lf_rinn', 'lf_rinn.blocks.3', 'tanh_3']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+tanh_3
+sub_162mul_495node_mul_495"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/mul_495: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodes%mul_495 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%tanh_3, %sub_283), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'mul_495']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 117, in forward
+    s = torch.tanh(s) * (1 - mask)
+�
+split_3_split_1
+sub_162mul_504node_mul_504"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/mul_504: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodev%mul_504 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%getitem_7, %sub_288), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'mul_504']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 118, in forward
+    t = t * (1 - mask)
+�
+mul_495exp_3
+node_exp_3"ExpJ�
+	namespace: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/exp_3: aten.exp.defaultJ�
+pkg.torch.onnx.class_hierarchyh['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.exp.default']J�
+pkg.torch.onnx.fx_nodej%exp_3 : [num_users=1] = call_function[target=torch.ops.aten.exp.default](args = (%mul_495,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'lf_rinn', 'lf_rinn.blocks.3', 'exp_3']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_381
+exp_3mul_517node_mul_517"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/mul_517: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_noder%mul_517 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%add_381, %exp_3), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'mul_517']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_517
+mul_504add_471node_add_471"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/add_471: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_471 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_517, %mul_504), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'add_471']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+sub_162
+add_471mul_526node_mul_526"MulJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/mul_526: aten.mul.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.mul.Tensor']J�
+pkg.torch.onnx.fx_nodet%mul_526 : [num_users=1] = call_function[target=torch.ops.aten.mul.Tensor](args = (%sub_293, %add_471), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'mul_526']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+mul_455
+mul_526add_478node_add_478"AddJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/lf_rinn: __main__.LF_RINN/lf_rinn.blocks.3: __main__.AffineCoupling/add_478: aten.add.TensorJ�
+pkg.torch.onnx.class_hierarchyg['__main__.LFRINN_CostMap_Inference', '__main__.LF_RINN', '__main__.AffineCoupling', 'aten.add.Tensor']J�
+pkg.torch.onnx.fx_nodet%add_478 : [num_users=1] = call_function[target=torch.ops.aten.add.Tensor](args = (%mul_455, %mul_526), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'lf_rinn', 'lf_rinn.blocks.3', 'add_478']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 36, in forward
+    LL_transformed = self.lf_rinn(LL)
+  File "/tmp/ipykernel_3295/3501932180.py", line 152, in forward
+    x, _ = block(x, mask)
+  File "/tmp/ipykernel_3295/3501932180.py", line 119, in forward
+    y = x_masked + (1 - mask) * (x * torch.exp(s) + t)
+�
+add_478
+divsub_306node_sub_306"SubJI
+	namespace<: __main__.LFRINN_CostMap_Inference/sub_306: aten.sub.TensorJZ
+pkg.torch.onnx.class_hierarchy8['__main__.LFRINN_CostMap_Inference', 'aten.sub.Tensor']J�
+pkg.torch.onnx.fx_nodep%sub_306 : [num_users=1] = call_function[target=torch.ops.aten.sub.Tensor](args = (%add_478, %div), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'sub_306']J�
+pkg.torch.onnx.stack_tracetFile "/tmp/ipykernel_3295/1941818138.py", line 38, in forward
+    torch.abs(LL_transformed - LL), size=x.shape[-2:],
+�
+sub_306abs_1
+node_abs_1"AbsJH
+	namespace;: __main__.LFRINN_CostMap_Inference/abs_1: aten.abs.defaultJ[
+pkg.torch.onnx.class_hierarchy9['__main__.LFRINN_CostMap_Inference', 'aten.abs.default']J�
+pkg.torch.onnx.fx_nodej%abs_1 : [num_users=1] = call_function[target=torch.ops.aten.abs.default](args = (%sub_306,), kwargs = {})J+
+pkg.torch.onnx.name_scopes['', 'abs_1']J�
+pkg.torch.onnx.stack_tracetFile "/tmp/ipykernel_3295/1941818138.py", line 38, in forward
+    torch.abs(LL_transformed - LL), size=x.shape[-2:],
+�
+val_0
+val_1val_256node_Concat_256"Concat*
+axis �Jb
+	namespaceU: __main__.LFRINN_CostMap_Inference/upsample_bilinear2d: aten.upsample_bilinear2d.vecJg
+pkg.torch.onnx.class_hierarchyE['__main__.LFRINN_CostMap_Inference', 'aten.upsample_bilinear2d.vec']J�
+pkg.torch.onnx.fx_node�%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%abs_1, [%sym_size_int_66, %sym_size_int_67], False, None), kwargs = {})J9
+pkg.torch.onnx.name_scopes['', 'upsample_bilinear2d']Jz
+pkg.torch.onnx.stack_trace\File "/tmp/ipykernel_3295/1941818138.py", line 37, in forward
+    lf_signal = F.interpolate(
+�
+val_251
+val_256val_258node_Concat_258"Concat*
+axis �Jb
+	namespaceU: __main__.LFRINN_CostMap_Inference/upsample_bilinear2d: aten.upsample_bilinear2d.vecJg
+pkg.torch.onnx.class_hierarchyE['__main__.LFRINN_CostMap_Inference', 'aten.upsample_bilinear2d.vec']J�
+pkg.torch.onnx.fx_node�%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%abs_1, [%sym_size_int_66, %sym_size_int_67], False, None), kwargs = {})J9
+pkg.torch.onnx.name_scopes['', 'upsample_bilinear2d']Jz
+pkg.torch.onnx.stack_trace\File "/tmp/ipykernel_3295/1941818138.py", line 37, in forward
+    lf_signal = F.interpolate(
+�
+abs_1
+ 
+ 
+val_258upsample_bilinear2dnode_upsample_bilinear2d"Resize*&
+keep_aspect_ratio_policy"stretch�*
+	antialias �*
+extrapolation_value    �*
+exclude_outside �*
+nearest_mode"floor�*/
+coordinate_transformation_mode"
+half_pixel�*
+cubic_coeff_a  @��*
+mode"linear�Jb
+	namespaceU: __main__.LFRINN_CostMap_Inference/upsample_bilinear2d: aten.upsample_bilinear2d.vecJg
+pkg.torch.onnx.class_hierarchyE['__main__.LFRINN_CostMap_Inference', 'aten.upsample_bilinear2d.vec']J�
+pkg.torch.onnx.fx_node�%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%abs_1, [%sym_size_int_66, %sym_size_int_67], False, None), kwargs = {})J9
+pkg.torch.onnx.name_scopes['', 'upsample_bilinear2d']Jz
+pkg.torch.onnx.stack_trace\File "/tmp/ipykernel_3295/1941818138.py", line 37, in forward
+    lf_signal = F.interpolate(
+�
+cover_patch
+edge_branch.net.0.weight
+edge_branch.net.0.bias	conv2d_12node_conv2d_12"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.0: torch.nn.modules.conv.Conv2d/conv2d_12: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_12 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%x, %p_edge_branch_net_0_weight, %p_edge_branch_net_0_bias, [1, 1], [1, 1]), kwargs = {})Jf
+pkg.torch.onnx.name_scopesH['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.0', 'conv2d_12']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�	
+	conv2d_12relu_8node_relu_8"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.1: torch.nn.modules.activation.ReLU/relu_8: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_noden%relu_8 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_12,), kwargs = {})Jc
+pkg.torch.onnx.name_scopesE['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.1', 'relu_8']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_8
+edge_branch.net.2.weight
+edge_branch.net.2.bias	conv2d_13node_conv2d_13"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.2: torch.nn.modules.conv.Conv2d/conv2d_13: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_13 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_8, %p_edge_branch_net_2_weight, %p_edge_branch_net_2_bias, [1, 1], [1, 1]), kwargs = {})Jf
+pkg.torch.onnx.name_scopesH['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.2', 'conv2d_13']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�	
+	conv2d_13relu_9node_relu_9"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.3: torch.nn.modules.activation.ReLU/relu_9: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_noden%relu_9 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_13,), kwargs = {})Jc
+pkg.torch.onnx.name_scopesE['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.3', 'relu_9']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_9
+edge_branch.net.4.weight
+edge_branch.net.4.bias	conv2d_14node_conv2d_14"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.4: torch.nn.modules.conv.Conv2d/conv2d_14: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_14 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_9, %p_edge_branch_net_4_weight, %p_edge_branch_net_4_bias, [1, 1], [1, 1]), kwargs = {})Jf
+pkg.torch.onnx.name_scopesH['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.4', 'conv2d_14']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�	
+	conv2d_14relu_10node_relu_10"ReluJ�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.5: torch.nn.modules.activation.ReLU/relu_10: aten.relu.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J�
+pkg.torch.onnx.fx_nodeo%relu_10 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%conv2d_14,), kwargs = {})Jd
+pkg.torch.onnx.name_scopesF['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.5', 'relu_10']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+�
+relu_10
+edge_branch.net.6.weight
+edge_branch.net.6.bias	conv2d_15node_conv2d_15"Conv*
+group�*
+pads@@@@�*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�J�
+	namespace�: __main__.LFRINN_CostMap_Inference/edge_branch: __main__.EdgeTextureBranch/edge_branch.net: torch.nn.modules.container.Sequential/edge_branch.net.6: torch.nn.modules.conv.Conv2d/conv2d_15: aten.conv2d.defaultJ�
+pkg.torch.onnx.class_hierarchy�['__main__.LFRINN_CostMap_Inference', '__main__.EdgeTextureBranch', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_15 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_10, %p_edge_branch_net_6_weight, %p_edge_branch_net_6_bias, [1, 1], [1, 1]), kwargs = {})Jf
+pkg.torch.onnx.name_scopesH['', 'edge_branch', 'edge_branch.net', 'edge_branch.net.6', 'conv2d_15']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 41, in forward
+    edge_signal = self.edge_branch(x)
+  File "/tmp/ipykernel_3295/3501932180.py", line 176, in forward
+    def forward(self, x): return self.net(x)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+upsample_bilinear2d
+	conv2d_15catnode_cat"Concat*
+axis�JF
+	namespace9: __main__.LFRINN_CostMap_Inference/cat: aten.cat.defaultJ[
+pkg.torch.onnx.class_hierarchy9['__main__.LFRINN_CostMap_Inference', 'aten.cat.default']J�
+pkg.torch.onnx.fx_node�%cat : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%upsample_bilinear2d, %conv2d_15], 1), kwargs = {})J)
+pkg.torch.onnx.name_scopes['', 'cat']J�
+pkg.torch.onnx.stack_tracezFile "/tmp/ipykernel_3295/1941818138.py", line 42, in forward
+    fused_input = torch.cat([lf_signal, edge_signal], dim=1)
+�
+cat
+fuse.weight
+	fuse.bias	conv2d_16node_conv2d_16"Conv*
+group�*
+pads@ @ @ @ �*
+auto_pad"NOTSET�*
+strides@@�*
+	dilations@@�Jr
+	namespacee: __main__.LFRINN_CostMap_Inference/fuse: torch.nn.modules.conv.Conv2d/conv2d_16: aten.conv2d.defaultJ~
+pkg.torch.onnx.class_hierarchy\['__main__.LFRINN_CostMap_Inference', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J�
+pkg.torch.onnx.fx_node�%conv2d_16 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%cat, %p_fuse_weight, %p_fuse_bias), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'fuse', 'conv2d_16']J�
+pkg.torch.onnx.stack_trace�File "/tmp/ipykernel_3295/1941818138.py", line 43, in forward
+    cost = torch.sigmoid(self.fuse(fused_input))
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/conv.py", line 553, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+�
+	conv2d_16cost_mapnode_sigmoid"SigmoidJN
+	namespaceA: __main__.LFRINN_CostMap_Inference/sigmoid: aten.sigmoid.defaultJ_
+pkg.torch.onnx.class_hierarchy=['__main__.LFRINN_CostMap_Inference', 'aten.sigmoid.default']J�
+pkg.torch.onnx.fx_noder%sigmoid : [num_users=1] = call_function[target=torch.ops.aten.sigmoid.default](args = (%conv2d_16,), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'sigmoid']J�
+pkg.torch.onnx.stack_tracenFile "/tmp/ipykernel_3295/1941818138.py", line 43, in forward
+    cost = torch.sigmoid(self.fuse(fused_input))
+main_graph*nBlf_rinn.blocks.0.net.0.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset0j
+length576p*cBlf_rinn.blocks.0.net.0.biasJ@�j0��;=]��=�U7>d>B(���<����ؼ��p�/->��z���<���=9o�=ľ��*rBlf_rinn.blocks.0.net.2.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset8064j
+length9216p*cBlf_rinn.blocks.0.net.2.biasJ@*л؂��l=򯣼n�+=��ʽ�b����Z�~�<�鄽���$h=F��j��MĽ*rBlf_rinn.blocks.0.net.4.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset3456j
+length1152p*+Blf_rinn.blocks.0.net.4.biasJ_� ��u�*pBlf_rinn.blocks.1.net.0.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset576j
+length576p*cBlf_rinn.blocks.1.net.0.biasJ@(�b�0�1;����~�>�\�;̀�<�i
+>�:�=���?��=�60�	�~�I���z�=���=> >*sBlf_rinn.blocks.1.net.2.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset17280j
+length9216p*cBlf_rinn.blocks.1.net.2.biasJ@<"��s����<�%�(雽~U��_ =N��\ى��ϼPE����PG�<�;��2C���6�*rBlf_rinn.blocks.1.net.4.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset4608j
+length1152p*+Blf_rinn.blocks.1.net.4.biasJ��=%F��*qBlf_rinn.blocks.2.net.0.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset1152j
+length576p*cBlf_rinn.blocks.2.net.0.biasJ@z��4A�=�����Y̽�3:����[^���<U��j�:K7о�:��D�=�b��q;�X�=��+;*sBlf_rinn.blocks.2.net.2.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset26496j
+length9216p*cBlf_rinn.blocks.2.net.2.biasJ@z{��¶��9�W����4���������P�޼;}�ֽ��A�,6��$�><���&cI��t��*rBlf_rinn.blocks.2.net.4.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset5760j
+length1152p*+Blf_rinn.blocks.2.net.4.biasJ�+�9�~s=*qBlf_rinn.blocks.3.net.0.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset1728j
+length576p*cBlf_rinn.blocks.3.net.0.biasJ@5/Ͼ����򵊽}����O�^�Y��ê;vLV��Y���T��/����`�w~��T����ļ/��*sBlf_rinn.blocks.3.net.2.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset35712j
+length9216p*cBlf_rinn.blocks.3.net.2.biasJ@�t	�_�p���Ի�,�o�;��5�iH����{�kz>�qL1��r��X>��g\׺��ƽ�G��a&��*rBlf_rinn.blocks.3.net.4.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset6912j
+length1152p*+Blf_rinn.blocks.3.net.4.biasJ����]L<*lBedge_branch.net.0.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset2304j
+length576p*^Bedge_branch.net.0.biasJ@��/��<�9j=��e< ��=H||���<���V.�=�̇�7�v�����&�=u>�53��H�9*o Bedge_branch.net.2.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset44928j
+length18432p*� Bedge_branch.net.2.biasJ�J�����
+<���=�=,y>��R����<m��=|��=X9���·=&�>��w=�&�<d��=���=��>�̽�y�<�߼h�x;�>6=�m>�7=b�=�m>n�=��=�g�<?��=_ō=*o Bedge_branch.net.4.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset63360j
+length18432p*^Bedge_branch.net.4.biasJ@!5���<=��/>n�[=#�=����=�7>&��=��>�NC=�K��ys>�f7>3�>c86>JrH>*lBedge_branch.net.6.weightj%
+locationcost_map_lfrinn.onnx.dataj
+offset2880j
+length576p*"Bedge_branch.net.6.biasJM&�=*!Bfuse.weightJݥ*�؏�*B	fuse.biasJs���*Bval_9J        *Bval_13J�������*Bval_16J       *Bval_33J       *Bval_71J       *Bscalar_tensor_defaultJ   @*Bval_142J        *Bval_144J       *Bval_150J��������       *Bval_158J       ��������*!Bscalar_tensor_default_1J  �?*Bval_3J       *Bval_151J��������*Bval_251J              Z�
+cover_patch!
+
+
+
+height
+width"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexb�
+cost_map!
+
+
+
+height
+width"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT",
+!pkg.torch.onnx.original_node_namesigmoidj�
+lf_rinn.blocks.0.net.0.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_0_weightj�
+lf_rinn.blocks.0.net.0.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_0_biasj�
+lf_rinn.blocks.0.net.2.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_2_weightj�
+lf_rinn.blocks.0.net.2.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_2_biasj�
+lf_rinn.blocks.0.net.4.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_4_weightj�
+lf_rinn.blocks.0.net.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_0_net_4_biasj�
+lf_rinn.blocks.1.net.0.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_0_weightj�
+lf_rinn.blocks.1.net.0.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_0_biasj�
+lf_rinn.blocks.1.net.2.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_2_weightj�
+lf_rinn.blocks.1.net.2.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_2_biasj�
+lf_rinn.blocks.1.net.4.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_4_weightj�
+lf_rinn.blocks.1.net.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_1_net_4_biasj�
+lf_rinn.blocks.2.net.0.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_0_weightj�
+lf_rinn.blocks.2.net.0.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_0_biasj�
+lf_rinn.blocks.2.net.2.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_2_weightj�
+lf_rinn.blocks.2.net.2.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_2_biasj�
+lf_rinn.blocks.2.net.4.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_4_weightj�
+lf_rinn.blocks.2.net.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_2_net_4_biasj�
+lf_rinn.blocks.3.net.0.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_0_weightj�
+lf_rinn.blocks.3.net.0.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_0_biasj�
+lf_rinn.blocks.3.net.2.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_2_weightj�
+lf_rinn.blocks.3.net.2.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_2_biasj�
+lf_rinn.blocks.3.net.4.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"D
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_4_weightj�
+lf_rinn.blocks.3.net.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"B
+!pkg.torch.onnx.original_node_namep_lf_rinn_blocks_3_net_4_biasj�
+edge_branch.net.0.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"?
+!pkg.torch.onnx.original_node_namep_edge_branch_net_0_weightj�
+edge_branch.net.0.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"=
+!pkg.torch.onnx.original_node_namep_edge_branch_net_0_biasj�
+edge_branch.net.2.weight
+
+ 
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"?
+!pkg.torch.onnx.original_node_namep_edge_branch_net_2_weightj�
+edge_branch.net.2.bias
+
+
+ "<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"=
+!pkg.torch.onnx.original_node_namep_edge_branch_net_2_biasj�
+edge_branch.net.4.weight
+
+
+ 
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"?
+!pkg.torch.onnx.original_node_namep_edge_branch_net_4_weightj�
+edge_branch.net.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"=
+!pkg.torch.onnx.original_node_namep_edge_branch_net_4_biasj�
+edge_branch.net.6.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"?
+!pkg.torch.onnx.original_node_namep_edge_branch_net_6_weightj�
+edge_branch.net.6.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"=
+!pkg.torch.onnx.original_node_namep_edge_branch_net_6_biasj�
+fuse.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"2
+!pkg.torch.onnx.original_node_namep_fuse_weightj�
+	fuse.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"0
+!pkg.torch.onnx.original_node_namep_fuse_biasjX
+val_9
+
+
+"C
+$pkg.onnxscript.optimizer.folded_from['val_4', 'val_7', 'val_8']j\
+val_13
+
+
+"F
+$pkg.onnxscript.optimizer.folded_from['val_10', 'val_11', 'val_12']j[
+val_16
+
+
+"E
+$pkg.onnxscript.optimizer.folded_from['val_14', 'val_15', 'val_3']j[
+val_33
+
+
+"E
+$pkg.onnxscript.optimizer.folded_from['val_2', 'val_31', 'val_32']j\
+val_71
+
+
+"F
+$pkg.onnxscript.optimizer.folded_from['val_26', 'val_69', 'val_70']jR
+scalar_tensor_default
+ "1
+$pkg.onnxscript.optimizer.folded_from	['val_3']jF
+val_142
+ "3
+$pkg.onnxscript.optimizer.folded_from['val_141']jF
+val_144
+ "3
+$pkg.onnxscript.optimizer.folded_from['val_143']jU
+val_150
+
+
+">
+$pkg.onnxscript.optimizer.folded_from['val_148', 'val_149']jU
+val_158
+
+
+">
+$pkg.onnxscript.optimizer.folded_from['val_156', 'val_157']jT
+scalar_tensor_default_1
+ "1
+$pkg.onnxscript.optimizer.folded_from	['val_2']j
+val_3
+ j
+val_151
+
+
+jH
+val_251
+
+
+"1
+$pkg.onnxscript.optimizer.folded_from	['abs_1']j
+val_0
+
+
+j
+sym_size_int_66
+ j
+val_1
+
+
+j
+sym_size_int_67
+ j
+add_528
+ j
+
+floordiv_4
+ j
+add_529
+ j
+
+floordiv_6
+ j7
+slice_1,
+*&
+
+
+((height + 1)//2)
+widthj1
+slice_3&
+$ 
+
+
+(height//2)
+widthjB
+slice_67
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j<
+slice_81
+/+
+
+
+(height//2)
+((width + 1)//2)j=
+slice_101
+/+
+
+
+((height + 1)//2)
+
+(width//2)j7
+slice_12+
+)%
+
+
+(height//2)
+
+(width//2)jA
+add_387
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+add_427
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+add_467
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j>
+div7
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j%
+arange
+
+((height + 1)//2)j&
+arange_1
+
+((width + 1)//2)j'
+view
+
+((height + 1)//2)
+j
+val_152
+
+
+j
+val_153
+
+
+j
+val_154
+
+
+j9
+expand/
+-)
+((height + 1)//2)
+((width + 1)//2)j(
+view_1
+
+
+((width + 1)//2)j;
+expand_1/
+-)
+((height + 1)//2)
+((width + 1)//2)j:
+add_114/
+-)
+((height + 1)//2)
+((width + 1)//2)j<
+	remainder/
+-)
+((height + 1)//2)
+((width + 1)//2)j;
+_to_copy/
+-)
+((height + 1)//2)
+((width + 1)//2)j
+val_169
+
+
+jA
+view_27
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_1487
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+conv2d7
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j?
+relu7
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_27
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jH
+split_split_07
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jH
+split_split_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j?
+tanh7
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+sub_1007
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_1887
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_1977
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j>
+exp7
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_2107
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_1837
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_2197
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_1907
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j:
+sub_139/
+-)
+((height + 1)//2)
+((width + 1)//2)jA
+view_57
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_2517
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_37
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_27
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_47
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_37
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_57
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_1_split_07
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_1_split_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+tanh_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+sub_1627
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_2917
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_3007
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j@
+exp_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_3137
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_2807
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_3227
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_2877
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_3527
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_67
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_47
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_77
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_57
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_87
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_2_split_07
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_2_split_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+tanh_27
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_3927
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_4017
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j@
+exp_27
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_4147
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_3747
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_4237
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_3817
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_4557
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jC
+conv2d_97
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_67
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jD
+	conv2d_107
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+relu_77
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jD
+	conv2d_117
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_3_split_07
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jJ
+split_3_split_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jA
+tanh_37
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_4957
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_5047
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j@
+exp_37
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_5177
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_4717
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+mul_5267
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+add_4787
+51
+
+
+((height + 1)//2)
+((width + 1)//2)jB
+sub_3067
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j@
+abs_17
+51
+
+
+((height + 1)//2)
+((width + 1)//2)j
+val_256
+
+
+j
+val_258
+
+
+j8
+upsample_bilinear2d!
+
+
+
+height
+widthj.
+	conv2d_12!
+
+
+
+height
+widthj+
+relu_8!
+
+
+
+height
+widthj.
+	conv2d_13!
+
+
+ 
+height
+widthj+
+relu_9!
+
+
+ 
+height
+widthj.
+	conv2d_14!
+
+
+
+height
+widthj,
+relu_10!
+
+
+
+height
+widthj.
+	conv2d_15!
+
+
+
+height
+widthj(
+cat!
+
+
+
+height
+widthj.
+	conv2d_16!
+
+
+
+height
+width��
+0pkg.torch.export.ExportedProgram.graph_signature�
+# inputs
+p_lf_rinn_blocks_0_net_0_weight: PARAMETER target='lf_rinn.blocks.0.net.0.weight'
+p_lf_rinn_blocks_0_net_0_bias: PARAMETER target='lf_rinn.blocks.0.net.0.bias'
+p_lf_rinn_blocks_0_net_2_weight: PARAMETER target='lf_rinn.blocks.0.net.2.weight'
+p_lf_rinn_blocks_0_net_2_bias: PARAMETER target='lf_rinn.blocks.0.net.2.bias'
+p_lf_rinn_blocks_0_net_4_weight: PARAMETER target='lf_rinn.blocks.0.net.4.weight'
+p_lf_rinn_blocks_0_net_4_bias: PARAMETER target='lf_rinn.blocks.0.net.4.bias'
+p_lf_rinn_blocks_1_net_0_weight: PARAMETER target='lf_rinn.blocks.1.net.0.weight'
+p_lf_rinn_blocks_1_net_0_bias: PARAMETER target='lf_rinn.blocks.1.net.0.bias'
+p_lf_rinn_blocks_1_net_2_weight: PARAMETER target='lf_rinn.blocks.1.net.2.weight'
+p_lf_rinn_blocks_1_net_2_bias: PARAMETER target='lf_rinn.blocks.1.net.2.bias'
+p_lf_rinn_blocks_1_net_4_weight: PARAMETER target='lf_rinn.blocks.1.net.4.weight'
+p_lf_rinn_blocks_1_net_4_bias: PARAMETER target='lf_rinn.blocks.1.net.4.bias'
+p_lf_rinn_blocks_2_net_0_weight: PARAMETER target='lf_rinn.blocks.2.net.0.weight'
+p_lf_rinn_blocks_2_net_0_bias: PARAMETER target='lf_rinn.blocks.2.net.0.bias'
+p_lf_rinn_blocks_2_net_2_weight: PARAMETER target='lf_rinn.blocks.2.net.2.weight'
+p_lf_rinn_blocks_2_net_2_bias: PARAMETER target='lf_rinn.blocks.2.net.2.bias'
+p_lf_rinn_blocks_2_net_4_weight: PARAMETER target='lf_rinn.blocks.2.net.4.weight'
+p_lf_rinn_blocks_2_net_4_bias: PARAMETER target='lf_rinn.blocks.2.net.4.bias'
+p_lf_rinn_blocks_3_net_0_weight: PARAMETER target='lf_rinn.blocks.3.net.0.weight'
+p_lf_rinn_blocks_3_net_0_bias: PARAMETER target='lf_rinn.blocks.3.net.0.bias'
+p_lf_rinn_blocks_3_net_2_weight: PARAMETER target='lf_rinn.blocks.3.net.2.weight'
+p_lf_rinn_blocks_3_net_2_bias: PARAMETER target='lf_rinn.blocks.3.net.2.bias'
+p_lf_rinn_blocks_3_net_4_weight: PARAMETER target='lf_rinn.blocks.3.net.4.weight'
+p_lf_rinn_blocks_3_net_4_bias: PARAMETER target='lf_rinn.blocks.3.net.4.bias'
+p_edge_branch_net_0_weight: PARAMETER target='edge_branch.net.0.weight'
+p_edge_branch_net_0_bias: PARAMETER target='edge_branch.net.0.bias'
+p_edge_branch_net_2_weight: PARAMETER target='edge_branch.net.2.weight'
+p_edge_branch_net_2_bias: PARAMETER target='edge_branch.net.2.bias'
+p_edge_branch_net_4_weight: PARAMETER target='edge_branch.net.4.weight'
+p_edge_branch_net_4_bias: PARAMETER target='edge_branch.net.4.bias'
+p_edge_branch_net_6_weight: PARAMETER target='edge_branch.net.6.weight'
+p_edge_branch_net_6_bias: PARAMETER target='edge_branch.net.6.bias'
+p_fuse_weight: PARAMETER target='fuse.weight'
+p_fuse_bias: PARAMETER target='fuse.bias'
+x: USER_INPUT
+
+# outputs
+sigmoid: USER_OUTPUT
+�]
+2pkg.torch.export.ExportedProgram.range_constraints'{s53: VR[0, int_oo], s0: VR[0, int_oo]}B
+ 
