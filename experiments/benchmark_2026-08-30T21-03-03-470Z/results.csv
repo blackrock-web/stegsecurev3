@@ -1,0 +1,5 @@
+strategy,psnr_mean,ssim_mean,bpp,stego_detection_rate,latency_ms
+"Proposed: Adaptive EMD-OPAP (Heuristic Fallback)",67.18,1,0.02,0.0622,265.2
+"Baseline: Pure EMD (Zhang & Wang 2006)",67.11,1,0.02,0.0622,57.8
+"Baseline: Standard OPAP (Chan & Cheng 2004)",68.5,1,0.02,0.0622,57.5
+"Baseline: Sequential LSB",72.47,1,0.02,0.0623,42

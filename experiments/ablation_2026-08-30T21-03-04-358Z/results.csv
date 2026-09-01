@@ -1,0 +1,5 @@
+name,psnr,ssim,security_score,detection_rate
+"Full Adaptive EMD-OPAP Model (Proposed - Heuristic)",67.17,1,94,0.0622
+"Ablation A: Uniform Allocation (No CostMap)",68.11,1,94,0.0622
+"Ablation B: Pure OPAP (No EMD in Zone A)",68.56,1,94,0.0622
+"Ablation C: Standard LSB (No OPAP in Zones B/C)",67.98,1,94,0.0622

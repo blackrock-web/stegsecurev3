@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-08-30T21:03:04.325Z",
+  "image_count": 2,
+  "image_count_used": 2,
+  "used_synthetic_covers": true,
+  "seed": 42,
+  "strategies_evaluated": 4,
+  "metrics": [
+    {
+      "strategy": "Proposed: Adaptive EMD-OPAP (Heuristic Fallback)",
+      "psnr_mean": 67.18,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 265.2
+    },
+    {
+      "strategy": "Baseline: Pure EMD (Zhang & Wang 2006)",
+      "psnr_mean": 67.11,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 57.8
+    },
+    {
+      "strategy": "Baseline: Standard OPAP (Chan & Cheng 2004)",
+      "psnr_mean": 68.5,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0622,
+      "latency_ms": 57.5
+    },
+    {
+      "strategy": "Baseline: Sequential LSB",
+      "psnr_mean": 72.47,
+      "ssim_mean": 1,
+      "bpp": 0.02,
+      "stego_detection_rate": 0.0623,
+      "latency_ms": 42
+    }
+  ],
+  "experiment_dir": "/app/applet/experiments/benchmark_2026-08-30T21-03-03-470Z"
+}

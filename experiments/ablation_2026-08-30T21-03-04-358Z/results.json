@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-08-30T21:03:05.141Z",
+  "image_count_used": 2,
+  "used_synthetic_covers": true,
+  "seed": 42,
+  "ablations": [
+    {
+      "name": "Full Adaptive EMD-OPAP Model (Proposed - Heuristic)",
+      "psnr": 67.17,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0622
+    },
+    {
+      "name": "Ablation A: Uniform Allocation (No CostMap)",
+      "psnr": 68.11,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0622
+    },
+    {
+      "name": "Ablation B: Pure OPAP (No EMD in Zone A)",
+      "psnr": 68.56,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0622
+    },
+    {
+      "name": "Ablation C: Standard LSB (No OPAP in Zones B/C)",
+      "psnr": 67.98,
+      "ssim": 1,
+      "security_score": 94,
+      "detection_rate": 0.0622
+    }
+  ],
+  "experiment_dir": "/app/applet/experiments/ablation_2026-08-30T21-03-04-358Z"
+}
